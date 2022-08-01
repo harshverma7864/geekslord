@@ -1,9 +1,15 @@
 // React version: "^16.12.0"
 import React from "react";
 // Import the desired words
-import words from "./Words";
+
 import Typed from "typed.js";
 class Typing extends React.Component {
+
+const words = [
+"hello sir",
+"its me harsh",
+"i am really very good"
+]
   componentDidMount() {
     const options = {
       strings: words,
