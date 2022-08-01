@@ -1,8 +1,8 @@
 // filename: words.js
-const words = [
+class Words extends React.Component = [
     'Welcome to GeeksLord',
     'Your Coding Buddy',
     'Invest Your Time Here',
     'Receive The Best Returns'
   ]
-  export default words
+  export default Words
