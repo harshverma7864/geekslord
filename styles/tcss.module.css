@@ -1,0 +1,31 @@
+.qimg{
+    width: 30vh;
+    height: 20vh;
+    /* background:linear-gradient(360deg, #80b7f7, #d3e5f9); */
+    /* border: 1px solid black; */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(1, 25, 26);
+}
+
+.qimg:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}   
+
+.topic{
+font-size: 18px;
+}
+
+.pdate{
+    font-size: 18px;
+}
+
+.cardsrow{
+    height: auto;
+    width: 80%;
+}

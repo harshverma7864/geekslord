@@ -1,0 +1,79 @@
+.full{
+    display: flex;
+}
+.left{
+    width: 50%;
+}
+
+.right{
+   
+    height: 100vh;
+    width: 50%;
+    padding: 4vh;
+    
+}
+
+.right textarea{
+    font-size: 18px;
+    font-weight: bolder;
+    width: 100%;
+    height: 100%;
+    margin: 1vh 0vh;
+    background: rgb(242, 242, 246);
+    border: 2px solid rgb(220, 219, 219);
+    outline: none;
+}
+
+.right select{
+    width: 7vw;
+    height: 4vh;
+    font-weight: bolder;
+}
+
+.main{
+    height: auto;
+    width: 100%;
+    margin: auto;
+    padding: 1vh;
+    font-size: 22px;
+}
+
+
+.main p {
+    font-size: 18px;
+    margin-left: 4vh;
+}
+.main span{
+    margin-left: 2vh;
+    font-size: 19px;
+}
+
+.statement{
+    height: auto;
+    width: 100%;
+    margin: 2vh;
+    padding: 2vh;
+    background: rgb(248, 246, 246);
+}
+
+.example{
+    height: auto;
+    width: 100%;
+    padding: 2vh;
+    margin: 2vh;
+    background: rgb(248, 246, 246);
+}
+
+.constraints {
+    height: auto;
+    margin: 2vh;
+    width: 100%;
+    padding: 2vh;
+    background: rgb(248, 246, 246);
+}
+
+/* .heading{
+    margin: 2vh;
+} */
+
+

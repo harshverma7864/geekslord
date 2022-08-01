@@ -1,0 +1,73 @@
+
+
+.topheader{
+    height: 40vh;
+    width: 98%;
+    display: flex;
+}
+
+
+.skillbox {
+    height: 100%;
+    width: 25%;
+    background-color: inherit;
+    -webkit-transform: skewX(-10deg);
+    -moz-transform: skewX(-10deg);
+    -ms-transform: skewX(-10deg);
+    transform: skewX(-10deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 75%;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    margin: auto;
+    position: relative;
+    top: -15vh;
+    padding: 10vh;
+}
+
+.image{
+    height: 25vh;
+    width: 25vh;
+    background-color: red;
+    /* border: 2px solid rgb(4, 4, 84); */
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.mainheader{
+    display: flex;
+}
+.details{
+   width: 60%;
+   height: 25vh;
+   padding: 3vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+}
+
+
+.name{
+    font-size: 25px;
+  
+
+}
+
+.college{
+    font-size: 22px;
+    font-weight: 700;
+}
+.points{
+    font-size: 18px;
+    font-weight: 600;
+}
